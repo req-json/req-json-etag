@@ -1,20 +1,19 @@
 import serializeRequest from '@req-json/serialize-request';
 
-const memoryStorageCache = {};
-const memoryStorage = {
-  getItem(request) {
-    return Promise.resolve(memoryStorageCache[request]);
-  },
-  setItem(request, cached) {
-    memoryStorageCache[request] = cached;
-    return Promise.resolve();
-  },
-};
 export default function (options = {}) {
+  const memoryStorageCache = {};
   if (!options.storage) {
-    options.storage = memoryStorage;
+    options.storage = {
+      getItem(request) {
+        return Promise.resolve(memoryStorageCache[request]);
+      },
+      setItem(request, cached) {
+        memoryStorageCache[request] = cached;
+        return Promise.resolve();
+      },
+    };
   }
-  return function (ctx, next) {
+  return (ctx, next) => {
     const { storage } = options;
     const request = serializeRequest(ctx);
     return storage.getItem(request)
