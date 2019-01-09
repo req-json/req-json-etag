@@ -60,8 +60,8 @@ reqJSON.use(reqJSONETag({
 [npm-downloads]: https://img.shields.io/npm/dt/@req-json%2Fetag.svg
 [npm-license]: https://img.shields.io/npm/l/@req-json%2Fetag.svg
 
-[github]: https://github.com/Cweili/req-json
-[github-issues]: https://img.shields.io/github/issues/Cweili/req-json.svg
+[github]: https://github.com/req-json/req-json-etag
+[github-issues]: https://img.shields.io/github/issues/req-json/req-json-etag.svg
 
 [travis]: https://travis-ci.org/req-json/req-json-etag
 [travis-build]: https://travis-ci.org/req-json/req-json-etag.svg?branch=master

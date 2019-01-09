@@ -14,9 +14,9 @@
   },
   "author": "Cweili",
   "license": "MIT",
-  "homepage": "https://github.com/Cweili/req-json",
+  "homepage": "https://github.com/req-json/req-json-etag#readme",
   "bugs": {
-    "url": "https://github.com/Cweili/req-json/issues"
+    "url": "https://github.com/req-json/req-json-etag/issues"
   },
   "main": "dist/etag.cjs.js",
   "module": "dist/etag.esm.js",
