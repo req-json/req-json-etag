@@ -37,6 +37,21 @@ Direct `<script>` include
 <script src="https://cdn.jsdelivr.net/npm/@req-json/etag"></script>
 ```
 
+## Options
+
+```js
+reqJSON.use(reqJSONETag({
+  storage: {
+    async getItem(id) {
+      // ...
+    },
+    async setItem(id) {
+      // ...
+    }
+  }
+}));
+```
+
 [req-json]: https://github.com/Cweili/req-json
 
 [npm]: https://www.npmjs.com/package/@req-json/etag
