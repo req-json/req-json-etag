@@ -20,6 +20,7 @@ export default function (options = {}) {
       .then((cached) => {
         if (cached) {
           const header = ctx.header || ctx.headers || {};
+          cached = JSON.parse(cached);
           header['If-None-Match'] = cached.etag;
           ctx.header = ctx.headers = header;
         }
@@ -30,10 +31,10 @@ export default function (options = {}) {
             }
             const { etag } = ctx.header;
             if (etag) {
-              return storage.setItem(request, {
+              return storage.setItem(request, JSON.stringify({
                 etag,
                 response: ctx.response,
-              });
+              }));
             }
             return undefined;
           });
