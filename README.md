@@ -8,8 +8,7 @@
 
 [![github][github-issues]][github]
 [![travis][travis-build]][travis]
-[![codecov][codecov-svg]][codecov]
-
+[![coverage][coveralls-svg]][coveralls-svg]
 
 ETag middleware for [req-json][req-json].
 
@@ -45,7 +44,7 @@ reqJSON.use(reqJSONETag({
     async getItem(id) {
       // ...
     },
-    async setItem(id) {
+    async setItem(id, content) {
       // ...
     }
   }
@@ -66,5 +65,5 @@ reqJSON.use(reqJSONETag({
 [travis]: https://travis-ci.org/req-json/req-json-etag
 [travis-build]: https://travis-ci.org/req-json/req-json-etag.svg?branch=master
 
-[codecov]: https://codecov.io/gh/req-json/etag
-[codecov-svg]: https://img.shields.io/codecov/c/github/req-json/etag.svg
+[coveralls]: https://coveralls.io/github/req-json/req-json-etag?branch=master
+[coveralls-svg]: https://coveralls.io/repos/github/req-json/req-json-etag/badge.svg?branch=master
