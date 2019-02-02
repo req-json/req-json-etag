@@ -19,7 +19,7 @@ export default function (options = {}) {
     return storage.getItem(request)
       .then((cached) => {
         if (cached) {
-          const header = ctx.header || ctx.headers || {};
+          const { header } = ctx;
           cached = JSON.parse(cached);
           header['If-None-Match'] = cached.etag;
           ctx.header = ctx.headers = header;
