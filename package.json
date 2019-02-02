@@ -26,7 +26,7 @@
   "scripts": {
     "prebuild": "eslint --fix *.js",
     "build": "rollup -c",
-    "test": "jest test --collectCoverage"
+    "test": "jest test --coverage"
   },
   "dependencies": {
     "@req-json/serialize-request": "^0.1.0"

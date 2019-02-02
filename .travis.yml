@@ -7,7 +7,4 @@ cache:
     - node_modules
 script:
   - npm run build
-  - npm i coveralls -g
-  - npx jest test --coverage --coverageReporters=text-lcov | coveralls
-  - npm test
-  - npx codecov
+  - npm test -- --coverageReporters=text-lcov | npx coveralls
