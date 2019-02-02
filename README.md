@@ -30,10 +30,10 @@ reqJSON.use(reqJSONETag());
 
 ### Browser
 
-Direct `<script>` include
+Direct `<script>` include `window.reqJSONETag`
 
 ```html
-<script src="https://cdn.jsdelivr.net/npm/@req-json/etag"></script>
+<script src="https://cdn.jsdelivr.net/npm/@req-json/etag@1"></script>
 ```
 
 ## Options

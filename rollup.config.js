@@ -29,7 +29,7 @@ export default [
     input: 'index.js',
     output: [
       {
-        name: 'ReqJSONETag',
+        name: 'reqJSONETag',
         file: pkg.unpkg,
         format: 'umd',
       },

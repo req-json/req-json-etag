@@ -29,7 +29,7 @@
     "test": "jest test --coverage"
   },
   "dependencies": {
-    "@req-json/serialize-request": "^1.0.0"
+    "@req-json/serialize-request": "^1.0.1"
   },
   "devDependencies": {
     "@babel/core": "^7.1.2",
