@@ -26,7 +26,7 @@
   "scripts": {
     "prebuild": "eslint --fix *.js",
     "build": "rollup -c",
-    "test": "jest test --collectCoverage --coverageDirectory ./coverage/"
+    "test": "jest test --collectCoverage"
   },
   "dependencies": {
     "@req-json/serialize-request": "^0.1.0"
@@ -42,6 +42,7 @@
     "eslint-plugin-import": "^2.13.0",
     "eslint-plugin-jest": "^22.0.0",
     "jest": "^23.6.0",
+    "req-json": "^2.0.0",
     "rollup": "^0.68.0",
     "rollup-plugin-babel": "^4.0.3",
     "rollup-plugin-node-resolve": "^4.0.0",
