@@ -1,7 +1,5 @@
 # @req-json/etag
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/req-json/req-json-etag.svg)](https://greenkeeper.io/)
-
 [![npm][badge-version]][npm]
 [![bundle size][badge-size]][bundlephobia]
 [![npm downloads][badge-downloads]][npm]
