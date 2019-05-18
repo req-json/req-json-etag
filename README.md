@@ -66,8 +66,8 @@ reqJSON.use(reqJSONETag({
 [badge-issues]: https://img.shields.io/github/issues/req-json/req-json-etag.svg
 [github]: https://github.com/req-json/req-json-etag
 
-[badge-build]: https://travis-ci.org/req-json/req-json-etag.svg?branch=master
+[badge-build]: https://img.shields.io/travis/req-json/req-json-etag/master.svg
 [travis]: https://travis-ci.org/req-json/req-json-etag
 
-[badge-coverage]: https://coveralls.io/repos/github/req-json/req-json-etag/badge.svg?branch=master
+[badge-coverage]: https://img.shields.io/coveralls/github/req-json/req-json-etag/master.svg
 [coveralls]: https://coveralls.io/github/req-json/req-json-etag?branch=master
