@@ -1,6 +1,6 @@
 import mock from 'xhr-mock';
 import ReqJSON from 'req-json';
-import reqJSONETag from '..';
+import reqJSONETag from '../index';
 
 beforeEach(() => mock.setup());
 
