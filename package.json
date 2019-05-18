@@ -1,6 +1,6 @@
 {
   "name": "@req-json/etag",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "ETag middleware for req-json.",
   "keywords": [
     "req-json",
