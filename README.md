@@ -7,7 +7,7 @@
 
 
 [![github][badge-issues]][github]
-[![travis][badge-build]][travis]
+[![workflows][badge-build]][workflows]
 [![coverage][badge-coverage]][coveralls]
 
 ETag middleware for [req-json][req-json].
@@ -66,8 +66,8 @@ reqJSON.use(reqJSONETag({
 [badge-issues]: https://img.shields.io/github/issues/req-json/req-json-etag.svg
 [github]: https://github.com/req-json/req-json-etag
 
-[badge-build]: https://img.shields.io/travis/req-json/req-json-etag/master.svg
-[travis]: https://travis-ci.org/req-json/req-json-etag
+[badge-build]: https://img.shields.io/github/workflow/status/req-json/req-json-etag/ci/master
+[workflows]: https://github.com/req-json/req-json-etag/actions/workflows/ci.yml?query=branch%3Amaster
 
 [badge-coverage]: https://img.shields.io/coveralls/github/req-json/req-json-etag/master.svg
 [coveralls]: https://coveralls.io/github/req-json/req-json-etag?branch=master
